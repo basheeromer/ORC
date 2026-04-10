@@ -2,7 +2,7 @@ import streamlit as st
 import base64
 import tempfile
 import os
-from mistralai import Mistral
+from mistralai.client import Mistral
 from PIL import Image
 import io
 
